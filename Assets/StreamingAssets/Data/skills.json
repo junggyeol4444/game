@@ -1,0 +1,232 @@
+{
+  "skills": [
+    {
+      "id": "skill_001",
+      "name": "Sword Slash",
+      "description": "A basic sword attack",
+      "type": 0,
+      "target": 0,
+      "manaCost": 10,
+      "cooldown": 0,
+      "currentCooldown": 0,
+      "range": 1,
+      "power": 20,
+      "accuracy": 0.95,
+      "effects": [
+        {
+          "effectType": 0,
+          "value": 20,
+          "duration": 0,
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "id": "skill_002",
+      "name": "Shield Bash",
+      "description": "Bash the enemy with your shield, dealing damage and stunning",
+      "type": 0,
+      "target": 0,
+      "manaCost": 15,
+      "cooldown": 2,
+      "currentCooldown": 0,
+      "range": 1,
+      "power": 15,
+      "accuracy": 0.9,
+      "effects": [
+        {
+          "effectType": 0,
+          "value": 15,
+          "duration": 0,
+          "chance": 1.0
+        },
+        {
+          "effectType": 9,
+          "value": 0,
+          "duration": 1,
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "id": "skill_003",
+      "name": "Fireball",
+      "description": "Launch a ball of fire at the enemy",
+      "type": 0,
+      "target": 0,
+      "manaCost": 20,
+      "cooldown": 1,
+      "currentCooldown": 0,
+      "range": 3,
+      "power": 35,
+      "accuracy": 0.85,
+      "effects": [
+        {
+          "effectType": 0,
+          "value": 35,
+          "duration": 0,
+          "chance": 1.0
+        },
+        {
+          "effectType": 11,
+          "value": 5,
+          "duration": 3,
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "id": "skill_004",
+      "name": "Heal",
+      "description": "Restore health to an ally",
+      "type": 1,
+      "target": 4,
+      "manaCost": 15,
+      "cooldown": 2,
+      "currentCooldown": 0,
+      "range": 4,
+      "power": 30,
+      "accuracy": 1.0,
+      "effects": [
+        {
+          "effectType": 1,
+          "value": 30,
+          "duration": 0,
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "id": "skill_005",
+      "name": "Arrow Shot",
+      "description": "Fire an arrow at a distant enemy",
+      "type": 0,
+      "target": 0,
+      "manaCost": 12,
+      "cooldown": 0,
+      "currentCooldown": 0,
+      "range": 5,
+      "power": 18,
+      "accuracy": 0.9,
+      "effects": [
+        {
+          "effectType": 0,
+          "value": 18,
+          "duration": 0,
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "id": "skill_006",
+      "name": "Poison Arrow",
+      "description": "Fire a poisoned arrow that deals damage over time",
+      "type": 0,
+      "target": 0,
+      "manaCost": 18,
+      "cooldown": 2,
+      "currentCooldown": 0,
+      "range": 5,
+      "power": 15,
+      "accuracy": 0.85,
+      "effects": [
+        {
+          "effectType": 0,
+          "value": 15,
+          "duration": 0,
+          "chance": 1.0
+        },
+        {
+          "effectType": 10,
+          "value": 8,
+          "duration": 4,
+          "chance": 0.7
+        }
+      ]
+    },
+    {
+      "id": "skill_007",
+      "name": "Backstab",
+      "description": "Strike from behind for massive damage",
+      "type": 0,
+      "target": 0,
+      "manaCost": 20,
+      "cooldown": 3,
+      "currentCooldown": 0,
+      "range": 1,
+      "power": 50,
+      "accuracy": 0.8,
+      "effects": [
+        {
+          "effectType": 0,
+          "value": 50,
+          "duration": 0,
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "id": "skill_008",
+      "name": "Shadow Strike",
+      "description": "Disappear and reappear next to an enemy, attacking",
+      "type": 4,
+      "target": 0,
+      "manaCost": 25,
+      "cooldown": 4,
+      "currentCooldown": 0,
+      "range": 7,
+      "power": 40,
+      "accuracy": 0.9,
+      "effects": [
+        {
+          "effectType": 0,
+          "value": 40,
+          "duration": 0,
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "id": "skill_009",
+      "name": "Divine Shield",
+      "description": "Create a protective shield around allies",
+      "type": 2,
+      "target": 6,
+      "manaCost": 30,
+      "cooldown": 4,
+      "currentCooldown": 0,
+      "range": 5,
+      "power": 0,
+      "accuracy": 1.0,
+      "effects": [
+        {
+          "effectType": 13,
+          "value": 50,
+          "duration": 3,
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "id": "skill_010",
+      "name": "Smite",
+      "description": "Call down divine wrath upon an enemy",
+      "type": 0,
+      "target": 0,
+      "manaCost": 25,
+      "cooldown": 3,
+      "currentCooldown": 0,
+      "range": 4,
+      "power": 45,
+      "accuracy": 0.95,
+      "effects": [
+        {
+          "effectType": 0,
+          "value": 45,
+          "duration": 0,
+          "chance": 1.0
+        }
+      ]
+    }
+  ]
+}

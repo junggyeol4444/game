@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "poolId": "standard_pool",
+      "poolName": "Standard Gacha",
+      "poolType": 0,
+      "items": [
+        {
+          "cardId": "card_001",
+          "rarity": 0,
+          "dropRate": 0.40,
+          "isRateUp": false
+        },
+        {
+          "cardId": "card_002",
+          "rarity": 0,
+          "dropRate": 0.40,
+          "isRateUp": false
+        },
+        {
+          "cardId": "card_003",
+          "rarity": 0,
+          "dropRate": 0.15,
+          "isRateUp": false
+        },
+        {
+          "cardId": "card_004",
+          "rarity": 2,
+          "dropRate": 0.04,
+          "isRateUp": false
+        },
+        {
+          "cardId": "card_005",
+          "rarity": 3,
+          "dropRate": 0.01,
+          "isRateUp": false
+        }
+      ],
+      "costGems": 100,
+      "costTickets": 1,
+      "hasGuaranteedRarity": true,
+      "guaranteedRarity": 2,
+      "pityThreshold": 90
+    },
+    {
+      "poolId": "premium_pool",
+      "poolName": "Premium Gacha",
+      "poolType": 1,
+      "items": [
+        {
+          "cardId": "card_003",
+          "rarity": 0,
+          "dropRate": 0.30,
+          "isRateUp": false
+        },
+        {
+          "cardId": "card_004",
+          "rarity": 2,
+          "dropRate": 0.50,
+          "isRateUp": true
+        },
+        {
+          "cardId": "card_005",
+          "rarity": 3,
+          "dropRate": 0.20,
+          "isRateUp": true
+        }
+      ],
+      "costGems": 300,
+      "costTickets": 0,
+      "hasGuaranteedRarity": true,
+      "guaranteedRarity": 3,
+      "pityThreshold": 50
+    }
+  ]
+}
