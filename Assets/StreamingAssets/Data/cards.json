@@ -1,0 +1,169 @@
+{
+  "cards": [
+    {
+      "id": "card_001",
+      "name": "Warrior Novice",
+      "description": "A brave novice warrior ready for adventure",
+      "rarity": 0,
+      "type": 0,
+      "level": 1,
+      "maxLevel": 50,
+      "experience": 0,
+      "experienceToNextLevel": 100,
+      "baseStats": {
+        "health": 100,
+        "maxHealth": 100,
+        "attack": 15,
+        "defense": 10,
+        "speed": 8,
+        "magic": 5,
+        "resistance": 5
+      },
+      "currentStats": {
+        "health": 100,
+        "maxHealth": 100,
+        "attack": 15,
+        "defense": 10,
+        "speed": 8,
+        "magic": 5,
+        "resistance": 5
+      },
+      "evolutionPath": ["card_011", "card_021"],
+      "evolutionStage": 0,
+      "skillIds": ["skill_001", "skill_002"],
+      "breedingCompatibility": ["card_002", "card_003"]
+    },
+    {
+      "id": "card_002",
+      "name": "Mage Apprentice",
+      "description": "A talented young mage learning the arcane arts",
+      "rarity": 0,
+      "type": 1,
+      "level": 1,
+      "maxLevel": 50,
+      "experience": 0,
+      "experienceToNextLevel": 100,
+      "baseStats": {
+        "health": 80,
+        "maxHealth": 80,
+        "attack": 8,
+        "defense": 6,
+        "speed": 10,
+        "magic": 20,
+        "resistance": 12
+      },
+      "currentStats": {
+        "health": 80,
+        "maxHealth": 80,
+        "attack": 8,
+        "defense": 6,
+        "speed": 10,
+        "magic": 20,
+        "resistance": 12
+      },
+      "evolutionPath": ["card_012", "card_022"],
+      "evolutionStage": 0,
+      "skillIds": ["skill_003", "skill_004"],
+      "breedingCompatibility": ["card_001", "card_003"]
+    },
+    {
+      "id": "card_003",
+      "name": "Ranger Scout",
+      "description": "A swift ranger skilled in ranged combat",
+      "rarity": 0,
+      "type": 2,
+      "level": 1,
+      "maxLevel": 50,
+      "experience": 0,
+      "experienceToNextLevel": 100,
+      "baseStats": {
+        "health": 90,
+        "maxHealth": 90,
+        "attack": 12,
+        "defense": 8,
+        "speed": 15,
+        "magic": 8,
+        "resistance": 8
+      },
+      "currentStats": {
+        "health": 90,
+        "maxHealth": 90,
+        "attack": 12,
+        "defense": 8,
+        "speed": 15,
+        "magic": 8,
+        "resistance": 8
+      },
+      "evolutionPath": ["card_013", "card_023"],
+      "evolutionStage": 0,
+      "skillIds": ["skill_005", "skill_006"],
+      "breedingCompatibility": ["card_001", "card_002"]
+    },
+    {
+      "id": "card_004",
+      "name": "Shadow Assassin",
+      "description": "A deadly assassin who strikes from the shadows",
+      "rarity": 2,
+      "type": 5,
+      "level": 1,
+      "maxLevel": 60,
+      "experience": 0,
+      "experienceToNextLevel": 100,
+      "baseStats": {
+        "health": 85,
+        "maxHealth": 85,
+        "attack": 25,
+        "defense": 7,
+        "speed": 20,
+        "magic": 10,
+        "resistance": 6
+      },
+      "currentStats": {
+        "health": 85,
+        "maxHealth": 85,
+        "attack": 25,
+        "defense": 7,
+        "speed": 20,
+        "magic": 10,
+        "resistance": 6
+      },
+      "evolutionPath": ["card_014"],
+      "evolutionStage": 0,
+      "skillIds": ["skill_007", "skill_008"],
+      "breedingCompatibility": []
+    },
+    {
+      "id": "card_005",
+      "name": "Holy Knight",
+      "description": "A divine knight blessed with holy powers",
+      "rarity": 3,
+      "type": 3,
+      "level": 1,
+      "maxLevel": 70,
+      "experience": 0,
+      "experienceToNextLevel": 100,
+      "baseStats": {
+        "health": 150,
+        "maxHealth": 150,
+        "attack": 18,
+        "defense": 22,
+        "speed": 6,
+        "magic": 15,
+        "resistance": 18
+      },
+      "currentStats": {
+        "health": 150,
+        "maxHealth": 150,
+        "attack": 18,
+        "defense": 22,
+        "speed": 6,
+        "magic": 15,
+        "resistance": 18
+      },
+      "evolutionPath": [],
+      "evolutionStage": 0,
+      "skillIds": ["skill_009", "skill_010"],
+      "breedingCompatibility": []
+    }
+  ]
+}

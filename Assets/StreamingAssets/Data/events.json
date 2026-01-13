@@ -1,0 +1,103 @@
+{
+  "events": [
+    {
+      "eventId": "event_001",
+      "name": "Mysterious Merchant",
+      "description": "You encounter a mysterious merchant offering rare items",
+      "type": 0,
+      "choices": [
+        {
+          "choiceId": "choice_001",
+          "text": "Buy a rare card for 200 gold",
+          "outcome": {
+            "resultText": "You purchased a rare card from the merchant",
+            "goldChange": -200,
+            "healthChange": 0,
+            "itemsGained": ["card_004"],
+            "nextEventId": ""
+          },
+          "requirements": ["gold:200"]
+        },
+        {
+          "choiceId": "choice_002",
+          "text": "Decline and move on",
+          "outcome": {
+            "resultText": "You politely declined and continued your journey",
+            "goldChange": 0,
+            "healthChange": 0,
+            "itemsGained": [],
+            "nextEventId": ""
+          },
+          "requirements": []
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "eventId": "event_002",
+      "name": "Injured Adventurer",
+      "description": "You find an injured adventurer on the road",
+      "type": 0,
+      "choices": [
+        {
+          "choiceId": "choice_003",
+          "text": "Help the adventurer",
+          "outcome": {
+            "resultText": "The grateful adventurer gives you a reward",
+            "goldChange": 50,
+            "healthChange": 0,
+            "itemsGained": [],
+            "nextEventId": ""
+          },
+          "requirements": []
+        },
+        {
+          "choiceId": "choice_004",
+          "text": "Ignore and continue",
+          "outcome": {
+            "resultText": "You walked past without stopping",
+            "goldChange": 0,
+            "healthChange": 0,
+            "itemsGained": [],
+            "nextEventId": ""
+          },
+          "requirements": []
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "eventId": "event_003",
+      "name": "Ancient Shrine",
+      "description": "You discover an ancient shrine glowing with power",
+      "type": 1,
+      "choices": [
+        {
+          "choiceId": "choice_005",
+          "text": "Pray at the shrine",
+          "outcome": {
+            "resultText": "The shrine blesses your party with restored health",
+            "goldChange": 0,
+            "healthChange": 50,
+            "itemsGained": [],
+            "nextEventId": ""
+          },
+          "requirements": []
+        },
+        {
+          "choiceId": "choice_006",
+          "text": "Take treasure from the shrine",
+          "outcome": {
+            "resultText": "You angered the shrine's guardian!",
+            "goldChange": 100,
+            "healthChange": -30,
+            "itemsGained": [],
+            "nextEventId": ""
+          },
+          "requirements": []
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

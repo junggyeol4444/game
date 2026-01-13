@@ -1,0 +1,64 @@
+{
+  "encounters": [
+    {
+      "encounterId": "area_01_encounter_001",
+      "type": 0,
+      "enemyIds": ["card_001", "card_002"],
+      "isFixed": false,
+      "rewards": {
+        "gold": 50,
+        "experience": 30,
+        "cardDropChance": 0.1,
+        "possibleCardDropIds": ["card_001", "card_002"]
+      }
+    },
+    {
+      "encounterId": "area_01_encounter_002",
+      "type": 0,
+      "enemyIds": ["card_001"],
+      "isFixed": false,
+      "rewards": {
+        "gold": 30,
+        "experience": 20,
+        "cardDropChance": 0.05,
+        "possibleCardDropIds": ["card_001"]
+      }
+    },
+    {
+      "encounterId": "area_01_boss_001",
+      "type": 2,
+      "enemyIds": ["card_004", "card_001", "card_002"],
+      "isFixed": true,
+      "rewards": {
+        "gold": 200,
+        "experience": 150,
+        "cardDropChance": 0.5,
+        "possibleCardDropIds": ["card_004"]
+      }
+    },
+    {
+      "encounterId": "area_02_encounter_001",
+      "type": 1,
+      "enemyIds": ["card_002", "card_003"],
+      "isFixed": false,
+      "rewards": {
+        "gold": 75,
+        "experience": 50,
+        "cardDropChance": 0.15,
+        "possibleCardDropIds": ["card_002", "card_003"]
+      }
+    },
+    {
+      "encounterId": "area_02_boss_001",
+      "type": 2,
+      "enemyIds": ["card_005", "card_004"],
+      "isFixed": true,
+      "rewards": {
+        "gold": 300,
+        "experience": 200,
+        "cardDropChance": 0.8,
+        "possibleCardDropIds": ["card_005"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "quests": [
+    {
+      "id": "quest_main_001",
+      "name": "First Steps",
+      "description": "Begin your adventure by defeating your first enemies",
+      "type": 0,
+      "status": 1,
+      "objectives": [
+        {
+          "id": "obj_001",
+          "description": "Defeat 3 enemies",
+          "type": 0,
+          "targetId": "any",
+          "requiredAmount": 3,
+          "currentAmount": 0,
+          "isCompleted": false
+        }
+      ],
+      "rewards": {
+        "gold": 100,
+        "gems": 10,
+        "experience": 50,
+        "cardIds": [],
+        "itemIds": []
+      },
+      "prerequisites": [],
+      "requiredLevel": 1
+    },
+    {
+      "id": "quest_main_002",
+      "name": "Power Up",
+      "description": "Level up one of your cards",
+      "type": 0,
+      "status": 0,
+      "objectives": [
+        {
+          "id": "obj_002",
+          "description": "Level up a card",
+          "type": 4,
+          "targetId": "any",
+          "requiredAmount": 1,
+          "currentAmount": 0,
+          "isCompleted": false
+        }
+      ],
+      "rewards": {
+        "gold": 150,
+        "gems": 15,
+        "experience": 75,
+        "cardIds": [],
+        "itemIds": []
+      },
+      "prerequisites": ["quest_main_001"],
+      "requiredLevel": 2
+    },
+    {
+      "id": "quest_side_001",
+      "name": "Card Collector",
+      "description": "Acquire 5 different cards",
+      "type": 1,
+      "status": 1,
+      "objectives": [
+        {
+          "id": "obj_003",
+          "description": "Collect 5 cards",
+          "type": 1,
+          "targetId": "any",
+          "requiredAmount": 5,
+          "currentAmount": 0,
+          "isCompleted": false
+        }
+      ],
+      "rewards": {
+        "gold": 200,
+        "gems": 25,
+        "experience": 100,
+        "cardIds": ["card_004"],
+        "itemIds": []
+      },
+      "prerequisites": [],
+      "requiredLevel": 1
+    },
+    {
+      "id": "quest_daily_001",
+      "name": "Daily Training",
+      "description": "Complete 3 battles today",
+      "type": 2,
+      "status": 1,
+      "objectives": [
+        {
+          "id": "obj_004",
+          "description": "Win 3 battles",
+          "type": 5,
+          "targetId": "any",
+          "requiredAmount": 3,
+          "currentAmount": 0,
+          "isCompleted": false
+        }
+      ],
+      "rewards": {
+        "gold": 50,
+        "gems": 5,
+        "experience": 25,
+        "cardIds": [],
+        "itemIds": []
+      },
+      "prerequisites": [],
+      "requiredLevel": 1
+    },
+    {
+      "id": "quest_daily_002",
+      "name": "Skill Master",
+      "description": "Use skills 10 times in battle",
+      "type": 2,
+      "status": 1,
+      "objectives": [
+        {
+          "id": "obj_005",
+          "description": "Use skills 10 times",
+          "type": 6,
+          "targetId": "any",
+          "requiredAmount": 10,
+          "currentAmount": 0,
+          "isCompleted": false
+        }
+      ],
+      "rewards": {
+        "gold": 75,
+        "gems": 8,
+        "experience": 30,
+        "cardIds": [],
+        "itemIds": []
+      },
+      "prerequisites": [],
+      "requiredLevel": 1
+    },
+    {
+      "id": "quest_weekly_001",
+      "name": "Weekly Challenge",
+      "description": "Complete all weekly objectives",
+      "type": 3,
+      "status": 1,
+      "objectives": [
+        {
+          "id": "obj_006",
+          "description": "Win 20 battles",
+          "type": 5,
+          "targetId": "any",
+          "requiredAmount": 20,
+          "currentAmount": 0,
+          "isCompleted": false
+        },
+        {
+          "id": "obj_007",
+          "description": "Defeat 50 enemies",
+          "type": 0,
+          "targetId": "any",
+          "requiredAmount": 50,
+          "currentAmount": 0,
+          "isCompleted": false
+        }
+      ],
+      "rewards": {
+        "gold": 500,
+        "gems": 100,
+        "experience": 200,
+        "cardIds": ["card_005"],
+        "itemIds": []
+      },
+      "prerequisites": [],
+      "requiredLevel": 5
+    }
+  ]
+}
